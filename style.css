@@ -1,0 +1,97 @@
+/* Apply some styles to the body element */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the video */
+
+  video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  
+
+
+/* Center the form */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the fieldset */
+fieldset {
+  border: none;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Style the legend */
+legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Style the table cells */
+td {
+  padding: 10px;
+}
+
+/* Style the input fields */
+.inpt {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: -18px;
+}
+
+/* Style the submit button */
+#btn {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Style the link */
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Style the link on hover */
+a:hover {
+  text-decoration: underline;
+}
+

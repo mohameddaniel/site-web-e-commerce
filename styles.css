@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+}
+
+.captcha-container label {
+    margin-right: 10px;
+}
+
+.captcha-image {
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
